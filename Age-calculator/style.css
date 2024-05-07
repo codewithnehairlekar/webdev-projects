@@ -26,13 +26,18 @@
     color: #ffff76;
 }
 
-.input-box {
+.input-box,
+.result-box {
     margin-top: 20px;
     padding: 35px;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.3);
     display: flex;
     align-items: center;
+}
+
+.result-box {
+    display: none;
 }
 
 .input-box input {
@@ -66,4 +71,8 @@
     background-position: calc(100% - 10px);
     background-size: 30px;
     cursor: pointer;
+}
+
+#result {
+    font-size: 15px;
 }
